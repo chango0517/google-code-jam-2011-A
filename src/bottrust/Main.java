@@ -17,7 +17,7 @@ public class Main {
 		inputList.add("3 O 5 O 8 B 100");
 		inputList.add("2 B 2 B 1");
 		
-		TraceLogger.getInstance().setLogLevel(TraceLogger.LEVEL_DEBUG);
+		TraceLogger.getInstance().setLogLevel(TraceLogger.LEVEL_NORMAL);
 		
 		//入力値のサイズチェック
 		if(inputList ==null || inputList.size() == 0){
